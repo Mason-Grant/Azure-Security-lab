@@ -1,7 +1,7 @@
 When setting up any VM cost management is an integral factor to ensure that you meet set budgets and ensure a harmonious link between effciency and cost.
 here we can see in this example of the cost management tools provided in azure
 
-<img src="https://github.com/Mason-Grant/Azure-Security-lab/raw/aaf7f5a7d14270a358de0bd7bc6e002cb050d8e2/Budget-tools.png" alt="Cost management tools" width=500>
+<img src="Budget-tools.png" alt="Cost management tools" width="500">
 
 
 Testing HTML img tag
