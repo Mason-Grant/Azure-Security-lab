@@ -1,0 +1,10 @@
+Within the Azure website there is a CLi located at the very top seen here in this photo
+
+
+This is na important resource that allows us to quickly provision and configure resources with just a few lines of code! 
+
+once you press the CLI button you prompted to choose between powershell and bash as seen here
+
+in this instance I am going to be coding in Bash
+
+Note: I am going to be including my process as Azure is a framwork that is rather fast changing. I will be demonstrating my issues and sharing guidance on how to get past a bug that occurs when provising VMs this bug is 2 days old at the time of writing.
