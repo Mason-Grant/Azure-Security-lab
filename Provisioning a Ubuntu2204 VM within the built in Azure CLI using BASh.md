@@ -12,12 +12,10 @@ Note: I am going to be including my process as Azure is a framwork that is rathe
 
 once you have booted up an CLI we can start by setting up a resource group(RG)! resource groups are necessary to to provision a VM via the CLI additionally resource groups are very handy for managing multiple different projects as we can assign budgets for individual resource groups
 Here is the following code,typed up in sublime, needed to provision our resource group this can copied directly into the CLI
-
-
+<img src="RGscript.png" alt="ResourceGroupScript" width="500">
 the location for this RG would logically be a database like 'uksouth' as that is geographically close to me but as I am on the free tier of Azure at the moment I am limited to what databases I can utilise for these labs
-
 once the code runs successfully we should see a message saying success like this 
-
+<img src="resourcegroupsuccess.png" alt="RGsuccess" width="500">
 However if this isn't the case you can check what resource groups you have active via the following command
 
 Once we have established our resource group we are now able to provision resources requiring an RG quickly from within the CLI
