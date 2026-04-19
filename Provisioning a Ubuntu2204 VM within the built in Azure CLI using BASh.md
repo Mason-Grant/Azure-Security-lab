@@ -7,7 +7,6 @@ once you press the CLI button you prompted to choose between powershell and bash
 
 <img src="welcomeCLI.png" alt=bashorpowershell width="500">
 
-
 Note: I am going to be including my process as Azure is a framwork that is rather fast changing. I will be demonstrating my issues and sharing guidance on how to get past a bug that occurs when provising VMs this bug is 2 days old at the time of writing.
 
 once you have booted up an CLI we can start by setting up a resource group(RG)! resource groups are necessary to to provision a VM via the CLI additionally resource groups are very handy for managing multiple different projects as we can assign budgets for individual resource groups
@@ -32,7 +31,7 @@ The first issue with the previous code was that I am on the free tier of Azure, 
 
 The method I used was utilizing the Azure portal GUI store. we can select 'Virtual machines' and all we have to do is try to select a server and the GUI will tell us if that server is at capacity.
 
-This method works but could be faster. by leveraging AI i have also found the following code
-This will then produce a table 
+This method works but could be faster. by leveraging AI i have also found the following code <img src="servercheck.png" alt="servercheckazcode" width="500">
+This will then produce a table  <img src="servertable.png" alt="servertable" width="300">
 
 the blank spaces indicate what servers are available. the names of available regions can be switched into your code as necessary as the 'location' value, exactly as they appear.
