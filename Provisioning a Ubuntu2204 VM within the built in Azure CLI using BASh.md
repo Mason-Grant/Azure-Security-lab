@@ -1,15 +1,18 @@
-Within the Azure website there is a CLi located at the very top seen here in this photo
+Within the Azure website there is a CLi located at the very top seen here in this photo, click it to open the CLI.
+
+<img src="CLIicon.png" alt="CLIicon" width="500">
 
 This is an important resource that allows us to quickly provision and configure resources with just a few lines of code! 
 once you press the CLI button you prompted to choose between powershell and bash as seen here in this instance I am going to be coding in Bash
 
+<img src="welcomeCLI.png" alt=bashorpowershell width="500">
+
 
 Note: I am going to be including my process as Azure is a framwork that is rather fast changing. I will be demonstrating my issues and sharing guidance on how to get past a bug that occurs when provising VMs this bug is 2 days old at the time of writing.
 
-
 once you have booted up an CLI we can start by setting up a resource group(RG)! resource groups are necessary to to provision a VM via the CLI additionally resource groups are very handy for managing multiple different projects as we can assign budgets for individual resource groups
+Here is the following code,typed up in sublime, needed to provision our resource group this can copied directly into the CLI
 
-Here is the following code needed to provision our resource group this can copied directly into the CLI
 
 the location for this RG would logically be a database like 'uksouth' as that is geographically close to me but as I am on the free tier of Azure at the moment I am limited to what databases I can utilise for these labs
 
